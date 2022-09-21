@@ -11,15 +11,8 @@
 # @raycast.schemaVersion 1
 
 
-tell application "System Events"
-  delay 0.5
-  keystroke space using command down
-  delay 0.5
-  keystroke "Text"
-  delay 0.5
-  keystroke "Edit"
-  delay 0.5
-  keystroke return
-  delay 1
-  keystroke "Hello world!"
-end tell
+display dialog "Input file name:" buttons {"YES", "NO"} default button "YES" default answer ""
+
+set returnRecord to the result
+get the text returned of returnRecord
+display dialog
