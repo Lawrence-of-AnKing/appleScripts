@@ -10,4 +10,3 @@
 # @raycast.packageName Bash script test.
 # @raycast.schemaVersion 1
 
-echo "hello"

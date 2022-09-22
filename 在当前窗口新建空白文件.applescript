@@ -1,27 +1,29 @@
 #!/usr/bin/osascript
 
-# Required parameters:
-# @raycast.schemaVersion 1
-# @raycast.title Create new file
+# @raycast.title Creat a File
+# @raycast.author Lawrence Liu
+# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.description 在当前文件夹中创建一个空白文件。Creat a blank file in current folder.
+
+# @raycast.icon 📙
 # @raycast.mode silent
-# @raycast.packageName 在当前访达窗口创建一个空白文件.
+# @raycast.packageName newFileCreater
+# @raycast.schemaVersion 1
 
-# Optional parameters: 
-# @raycast.icon 📃
-# @raycast.argument1 { "type": "text", "placeholder": "Name" }
+# 显示输入框
+display dialog "输入文件名称 / Input file name:" buttons {"YES", "NO"} default button "YES" default answer ""
 
-# Documentation:
-# @raycast.description Create New File.
+# 获取输入内容
+set fileName to (text returned) of the result
 
-on run argv
+# 如果未打开访达，则弹窗提示
+if application "Finder" is not running then
+	display dialog "未打开访达！ / Open Finder.app First!" buttons {"YES", "NO"} default button "YES"
+end if
 
-	if application "Finder" is not running then
-		return "未打开任何访达窗口!"
-	end if
-
-	tell application "Finder"
-		make new file at (folder of the front window as alias) with properties {name:argv}
-		return "创建成功！"
-	end tell
-
-end run
+# 创建指定文件名的文件
+# 返回创建成功的提示
+tell application "Finder"
+	make new file at (folder of the front window as alias) with properties {name:fileName}
+	return "创建成功！ / Creat Success!"
+end tell
