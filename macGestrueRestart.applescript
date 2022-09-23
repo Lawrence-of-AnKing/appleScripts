@@ -20,8 +20,3 @@ tell application "MacGesture"
    end if
    activate
 end tell
-
-# 关闭弹出的窗口
-tell application "System Events"
-    key code 13 using {command down}
-end tell
