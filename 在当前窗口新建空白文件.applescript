@@ -9,7 +9,24 @@
 # @raycast.mode silent
 # @raycast.packageName newFileCreater
 # @raycast.schemaVersion 1
+# @raycast.argument1 { "type": "text", "placeholder": "Name" }
 
+# 直接使用Raycast的传参方法，在Raycast搜索框中输入新建文件夹的名称
+
+on run argv
+
+	if application "Finder" is not running then
+		return "未打开任何访达窗口!"
+	end if
+
+	tell application "Finder"
+		make new file at (folder of the front window as alias) with properties {name:argv}
+		return "创建成功！"
+	end tell
+
+end run
+
+(*
 # 显示输入框
 display dialog "输入文件名称 / Input file name:" buttons {"YES", "NO"} default button "YES" default answer ""
 
@@ -27,3 +44,4 @@ tell application "Finder"
 	make new file at (folder of the front window as alias) with properties {name:fileName}
 	return "创建成功！ / Creat Success!"
 end tell
+*)

@@ -10,4 +10,4 @@
 # @raycast.packageName toTypeC
 # @raycast.schemaVersion 1
 
-do shell script "m1ddc display 1 set input 27"
+m1ddc display 1 set input 27

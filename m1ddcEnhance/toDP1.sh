@@ -10,4 +10,4 @@
 # @raycast.packageName toDP1
 # @raycast.schemaVersion 1
 
-m1ddc display 1 set input 15
+m1ddc display 1 set input 16

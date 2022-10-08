@@ -115,3 +115,26 @@ DisplayPort 1: 15, DisplayPort 2: 16, HDMI 1: 17 HDMI 2: 18, USB-C: 27.）
 
 你还可以用 `l` 和 `v` 来代替 `luminance` 和 `volume`（You can also use 'l', 'v' instead of 'luminance', 'volume' etc.）
 
+### 对应表格
+
+| Input Source                    | Value |
+| ------------------------------- | ----- |
+| VGA-1                           | 1     |
+| VGA-2                           | 2     |
+| DVI-1                           | 3     |
+| DVI-2                           | 4     |
+| Composite video 1               | 5     |
+| Composite video 2               | 6     |
+| S-Video-1                       | 7     |
+| S-Video-2                       | 8     |
+| Tuner-1                         | 9     |
+| Tuner-2                         | 10    |
+| Tuner-3                         | 11    |
+| Component video (YPrPb/YCrCb) 1 | 12    |
+| Component video (YPrPb/YCrCb) 2 | 13    |
+| Component video (YPrPb/YCrCb) 3 | 14    |
+| DisplayPort-1                   | 15    |
+| DisplayPort-2                   | 16    |
+| HDMI-1                          | 17    |
+| HDMI-2                          | 18    |
+| USB-C                           | 27    |
