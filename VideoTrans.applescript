@@ -1,13 +1,14 @@
 #!/usr/bin/osascript
 
-# Required parameters:
-# @raycast.schemaVersion 1
-# @raycast.title VideoTrans
-# @raycast.mode silent
-
-# Documentation:
-# @raycast.description Trans Video to Other Format.
+# @raycast.title Video Trans
 # @raycast.author LawrenceLiu
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
+# @raycast.description Trans Video to Other Format.
+
+# @raycast.icon 📺
+# @raycast.mode silent
+# @raycast.packageName videoTrans
+# @raycast.schemaVersion 1
 
 # 选择目标格式
 display dialog "将选中文件转换为：" buttons {".mp4", ".flv", ".mkv"} default button ".mp4"

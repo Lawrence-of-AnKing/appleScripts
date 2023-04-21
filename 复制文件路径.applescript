@@ -1,8 +1,8 @@
 #!/usr/bin/osascript
 
 # @raycast.title Path Get
-# @raycast.author LawrenceLiu
-# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.author Lawrence Liu
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
 # @raycast.description 获取选中文件的路径地址。Get the choosen file's path.
 
 # @raycast.icon 📑

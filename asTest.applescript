@@ -2,7 +2,7 @@
 
 # @raycast.title asTest
 # @raycast.author Lawrence Liu
-# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
 # @raycast.description Test Script.
 
 # @raycast.icon 📝
@@ -11,8 +11,12 @@
 # @raycast.schemaVersion 1
 
 
-display dialog "Input file name:" buttons {"YES", "NO"} default button "YES" default answer ""
-
-set returnRecord to the result
-get the text returned of returnRecord
-display dialog
+tell application "System Events"
+    tell process "VMware Fusion"
+            tell windows 1
+                tell group 1 of group 1 of toolbar 1
+                    entire contents
+                end tell
+            end tell
+    end tell
+end tell

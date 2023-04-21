@@ -1,13 +1,13 @@
 #!/usr/bin/osascript
 
-# @raycast.title Trans the Clipboard Contents to Plain Text
+# @raycast.title Paste as Plain Text
 # @raycast.author Lawrence Liu
-# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
 # @raycast.description 将剪切板内容转换为纯文本。Trans the Clipboard Contents to Plain Text.
 
 # @raycast.icon 📋
 # @raycast.mode silent
-# @raycast.packageName transClipboard
+# @raycast.packageName pastePlainText
 # @raycast.schemaVersion 1
 
 # 将剪切板内容转换为纯文本

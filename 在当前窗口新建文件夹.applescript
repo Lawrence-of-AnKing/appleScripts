@@ -2,7 +2,7 @@
 
 # @raycast.title Creat a Folder
 # @raycast.author Lawrence Liu
-# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
 # @raycast.description 在当前文件夹中创建一个空白文件夹。Creat a blank folder in current folder.
 
 # @raycast.icon 📁

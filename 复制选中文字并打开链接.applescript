@@ -1,8 +1,8 @@
 #!/usr/bin/osascript
 
 # @raycast.title Open Link Directly
-# @raycast.author LawrenceLiu
-# @raycast.authorURL https://github.com/LawrenceLiuQuanzhou
+# @raycast.author Lawrence Liu
+# @raycast.authorURL https://github.com/Lawrence-of-AnKing
 # @raycast.description Open the link directly by Edge, whatever it contains http:// or https://.
 
 # @raycast.icon 🖇️
