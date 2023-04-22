@@ -11,7 +11,8 @@
 # @raycast.schemaVersion 1
 
 # 向控制台发出指令，打开 Stable Diffusion WebUI （需要根据自己用户名的不同，变更地址）
-# 此指令会导致长时间等待：do shell script "cd /Users/liu/stable-diffusion-webui/; ./webui.sh"
+# 不推荐 `do shell script` 方式，此指令会导致长时间等待：
+# do shell script "cd /Users/liu/stable-diffusion-webui/; ./webui.sh"
 tell application "Terminal"
     activate
     do script "cd /Users/liu/stable-diffusion-webui"
