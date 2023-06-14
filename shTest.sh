@@ -10,10 +10,4 @@
 # @raycast.packageName Bash script test.
 # @raycast.schemaVersion 1
 
-tell application "System Events"
-    tell process "VMware Fusion"
-            tell windows 1
-                entire contents
-            end tell
-    end tell
-end tell
+echo `pbpaste`
