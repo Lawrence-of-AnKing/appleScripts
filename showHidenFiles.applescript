@@ -6,7 +6,7 @@
 # @raycast.description 显示访达中的隐藏文件。 / Show the hiden files in Finder.
 
 # @raycast.icon 🔎
-# @raycast.mode fullOutput
+# @raycast.mode silent
 # @raycast.packageName showHidenFiles
 # @raycast.schemaVersion 1
 

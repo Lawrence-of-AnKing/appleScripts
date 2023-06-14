@@ -1,13 +1,13 @@
 #!/usr/bin/osascript
 
-# @raycast.title Show hiden files in finder
+# @raycast.title Hide hiden files in finder
 # @raycast.author Lawrence Liu
 # @raycast.authorURL https://github.com/Lawrence-of-AnKing
-# @raycast.description 显示访达中的隐藏文件。 / Show the hiden files in Finder.
+# @raycast.description 隐藏访达中的隐藏文件。 / Hide the hiden files in Finder.
 
 # @raycast.icon 🔎
-# @raycast.mode fullOutput
-# @raycast.packageName showHidenFiles
+# @raycast.mode silent
+# @raycast.packageName hideHidenFiles
 # @raycast.schemaVersion 1
 
 # 此脚本的意义在于：
