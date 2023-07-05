@@ -3,7 +3,7 @@
 # @raycast.title Start caj2pdf
 # @raycast.author Lawrence Liu
 # @raycast.authorURL https://github.com/Lawrence-of-AnKing
-# @raycast.description 因为 caj2pdf-qt 有问题，在 M1 上直接启动会无法转换，只有从控制台转换才能正常转换，所以写了个脚本来启动。
+# @raycast.description 因为 caj2pdf-qt 有问题，在 M1 上直接启动会无法转换，只有从终端启动后才能正常转换，所以写了个脚本来启动。
 
 # @raycast.icon 📜
 # @raycast.mode silent
