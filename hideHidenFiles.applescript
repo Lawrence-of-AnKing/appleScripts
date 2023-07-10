@@ -17,5 +17,4 @@
 # 该指令通过修改 `~/Library/Preferences/com.apple.finder.plist` 路径下的配置文件实现隐藏隐藏文件
 
 set hideFiles to "defaults write com.apple.Finder AppleShowAllFiles NO;KillAll Finder"
-
 do shell script hideFiles
