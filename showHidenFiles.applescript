@@ -16,6 +16,6 @@
 
 # 该指令通过修改 `~/Library/Preferences/com.apple.finder.plist` 路径下的配置文件实现显示隐藏文件
 
-tell application "Terminal"
-    do script "defaults write com.apple.Finder AppleShowAllFiles YES;KillAll Finder"
-end tell
+set unhideFiles to "defaults write com.apple.Finder AppleShowAllFiles YES;KillAll Finder"
+
+do shell script unhideFiles
