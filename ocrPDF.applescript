@@ -41,7 +41,8 @@ tell application "Finder"
 end tell
 
 # 构建 OCR 命令
-set ocrCommand to "parallel --tag --load 80% -j 3 ocrmypdf -l chi_sim --deskew --clean {} 'output/{}' ::: *.pdf"
+set ocrCommand to "parallel --tag --load 80% -j 3 ocrmypdf -l chi_sim {} 'output/{}' ::: *.pdf"
 
 # 打开新的终端窗口运行 OCR 指令
+# 注意：parallel 运行中不会有任何进度提示，如果一次处理文件较大、较多，会耗费很长时间
 do shell script "osascript -e 'tell application \"Terminal\" to do script \"cd " & folderPath & " && " & ocrCommand & "\"'"
